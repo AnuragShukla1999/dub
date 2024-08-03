@@ -254,3 +254,16 @@ td {
     }
   }
 }
+
+
+
+
+
+> a {
+  cursor: default;
+  opacity: 0.5;
+  & {
+    width: $Menu-width; // Wrapped inside `& {}` to opt into the new behavior
+  }
+}
+
